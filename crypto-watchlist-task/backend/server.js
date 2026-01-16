@@ -213,7 +213,7 @@ app.post('/api/watchlist', auth, async (req, res) => {
 const PORT = process.env.PORT || 5000;
 app.listen(PORT, () => {
   console.log(`\n Server: http://localhost:${PORT}`);
-  console.log(' Users: http://localhost:5000/api/debug/users');
+  console.log("Users: /api/debug/users");
   console.log(' Clear: http://localhost:5000/api/debug/clear');
   
   
